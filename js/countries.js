@@ -5,7 +5,7 @@ const loadCountries = () =>{
 }
 
 const displayCountris = countries =>{
-    const allCountriesHTML = countries.map(country => getCountryHTML(country));
+    const CountriesHTML = countries.map(country => getCountryHTML(country));
 }
 
 const getCountryHTML = country =>{
